@@ -1,0 +1,25 @@
+{
+  "name": "dcapi/structure-additional",
+  "description": "additional",
+  "authors": [
+    {
+      "name": "shahriar pahlevansadegh",
+      "email": "shpahlevan@armantadbir.ir"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dcapi\\Structure\\Additional\\": "src/"
+    }
+  },
+  "require": {
+    "kalnoy/nestedset": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dcapi\\Structure\\Additional\\AdditionalServiceProvider"
+      ]
+    }
+  }
+}
